@@ -12,7 +12,7 @@ const BookingModal = ({ productItem, setProductItem }) => {
           >
             ✕
           </label>
-          <h3 className="text-lg font-bold">name</h3>
+          <h3 className="text-lg font-bold">Please Book Now</h3>
           <form className="grid grid-cols-1 gap-3 mt-10">
             <input
               name="name"

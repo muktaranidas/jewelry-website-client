@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="px-4 divide-y bg-black text-gray-100">
+    <footer className="px-4 divide-y bg-gray-900 text-gray-100">
       <div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
         <div className="lg:w-1/3">
           <a
@@ -21,7 +21,7 @@ const Footer = () => {
               </svg>
             </div>
             <span className="self-center text-2xl font-semibold">
-              Brand name
+              Looki's Jwelary
             </span>
           </a>
         </div>

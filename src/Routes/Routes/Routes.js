@@ -1,6 +1,7 @@
 import Blog from "../../Pages/Blog/Blog";
 import ContactUs from "../../Pages/ContactUs/ContactUs";
 import Categories from "../../Pages/Home/Categories/Categories";
+import About from "../../Pages/Home/Home/About/About";
 import Products from "../../Pages/Products/Products";
 import ErrorPage from "../../Pages/Shared/ErrorPage";
 
@@ -19,15 +20,15 @@ const router = createBrowserRouter([
         element: <Home></Home>,
       },
       {
-        path: "/blog",
-        element: <Blog></Blog>,
+        path: "/about",
+        element: <About></About>,
       },
       {
         path: "/categories",
         element: <Categories></Categories>,
       },
       {
-        path: "/contact",
+        path: "/contact-us",
         element: <ContactUs></ContactUs>,
       },
       {

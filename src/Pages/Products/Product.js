@@ -11,12 +11,12 @@ const Product = ({ product, setProductItem }) => {
       </figure>
       <div className="card-body ">
         <h2 className="card-title text-4xl text-pink-700">{title}</h2>
-        {/* {/* <p className="text-xl font-bold">Location: {location}</p> */}
-        <p className="text-xl font-bold">
+
+        <p className="text-xl font-bold text-gray-600">
           Price: <small>{price}</small>
         </p>
 
-        <p className="text-xl font-bold">
+        <p className="text-xl font-bold text-gray-600">
           details: <small>{details}</small>
         </p>
 

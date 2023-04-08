@@ -40,7 +40,7 @@ const Contact = () => {
           >
             <span class=" h-full bg-gradient-to-br absolute"></span>
             <span class="relative px-6 py-3 transition-all ease-out bg-blue-900 rounded-md group-hover:bg-opacity-0 duration-400">
-              <span class="relative text-white">Button Text</span>
+              <span class="relative text-white">Please Send</span>
             </span>
           </a>
         </form>

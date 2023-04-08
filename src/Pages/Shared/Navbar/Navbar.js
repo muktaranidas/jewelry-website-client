@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -8,34 +9,27 @@ const Navbar = () => {
         <div class="relative flex grid items-center grid-cols-2 lg:grid-cols-3">
           <ul class="flex items-center hidden space-x-8 lg:flex">
             <li>
-              <a
+              <Link
+                to="/categories"
                 href="/"
                 aria-label="Our product"
                 title="Our product"
                 class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
               >
                 Categories
-              </a>
+              </Link>
             </li>
+
             <li>
-              <a
-                href="/"
-                aria-label="Product pricing"
-                title="Product pricing"
-                class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
-              >
-                Product{" "}
-              </a>
-            </li>
-            <li>
-              <a
+              <Link
+                to="/about"
                 href="/"
                 aria-label="Our product"
                 title="Our product"
                 class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
               >
                 About
-              </a>
+              </Link>
             </li>
           </ul>
           <a
@@ -65,14 +59,15 @@ const Navbar = () => {
           </a>
           <ul class="flex items-center hidden ml-auto space-x-8 lg:flex">
             <li>
-              <a
+              <Link
+                to="/contact-us"
                 href="/"
                 aria-label="Sign in"
                 title="Sign in"
                 class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
               >
                 Contact Us
-              </a>
+              </Link>
             </li>
           </ul>
           <div class="ml-auto lg:hidden">
@@ -147,54 +142,27 @@ const Navbar = () => {
                   <nav>
                     <ul class="space-y-4">
                       <li>
-                        <a
+                        <Link
+                          to="/categories"
                           href="/"
                           aria-label="Our product"
                           title="Our product"
-                          class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
                         >
-                          Product
-                        </a>
+                          Categories
+                        </Link>
                       </li>
+
                       <li>
-                        <a
+                        <Link
+                          to="/about"
                           href="/"
                           aria-label="Our product"
                           title="Our product"
-                          class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
                         >
-                          Features
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="/"
-                          aria-label="Product pricing"
-                          title="Product pricing"
-                          class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                        >
-                          Pricing
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="/"
-                          aria-label="Sign in"
-                          title="Sign in"
-                          class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                        >
-                          Sign in
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="/"
-                          class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-                          aria-label="Sign up"
-                          title="Sign up"
-                        >
-                          Sign up
-                        </a>
+                          About
+                        </Link>
                       </li>
                     </ul>
                   </nav>
