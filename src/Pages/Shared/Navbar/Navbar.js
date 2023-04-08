@@ -14,17 +14,7 @@ const Navbar = () => {
                 title="Our product"
                 class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
               >
-                Product
-              </a>
-            </li>
-            <li>
-              <a
-                href="/"
-                aria-label="Our product"
-                title="Our product"
-                class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
-              >
-                Features
+                Categories
               </a>
             </li>
             <li>
@@ -34,7 +24,17 @@ const Navbar = () => {
                 title="Product pricing"
                 class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
               >
-                Pricing
+                Product{" "}
+              </a>
+            </li>
+            <li>
+              <a
+                href="/"
+                aria-label="Our product"
+                title="Our product"
+                class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+              >
+                About
               </a>
             </li>
           </ul>
@@ -45,7 +45,7 @@ const Navbar = () => {
             class="inline-flex items-center lg:mx-auto"
           >
             <svg
-              class="w-8 text-teal-accent-400"
+              class="w-8 text-gray-100"
               viewBox="0 0 24 24"
               strokeLinejoin="round"
               strokeWidth="2"
@@ -60,7 +60,7 @@ const Navbar = () => {
               <rect x="14" y="11" width="7" height="12" />
             </svg>
             <span class="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">
-              Company
+              Looki's Jwelary
             </span>
           </a>
           <ul class="flex items-center hidden ml-auto space-x-8 lg:flex">
@@ -71,17 +71,7 @@ const Navbar = () => {
                 title="Sign in"
                 class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
               >
-                Sign in
-              </a>
-            </li>
-            <li>
-              <a
-                href="/"
-                class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-                aria-label="Sign up"
-                title="Sign up"
-              >
-                Sign up
+                Contact Us
               </a>
             </li>
           </ul>

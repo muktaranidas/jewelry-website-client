@@ -1,6 +1,6 @@
 import React from "react";
 
-const Writter = () => {
+const Designer = () => {
   return (
     <section className="py-6 dark:bg-gray-800 dark:text-gray-100">
       <div className="container flex flex-col items-center justify-center p-4 mx-auto space-y-8 sm:p-10">
@@ -73,4 +73,4 @@ const Writter = () => {
   );
 };
 
-export default Writter;
+export default Designer;
