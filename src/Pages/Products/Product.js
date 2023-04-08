@@ -2,7 +2,7 @@ import React from "react";
 import "./Product.css";
 
 const Product = ({ product, setProductItem }) => {
-  const { title, img } = product;
+  const { title, img, details, price } = product;
   // console.log(title);
   return (
     <div className="card card-compact w-96 text-black bg-orange-300 shadow-xl">
@@ -11,22 +11,15 @@ const Product = ({ product, setProductItem }) => {
       </figure>
       <div className="card-body ">
         <h2 className="card-title text-4xl text-pink-700">{title}</h2>
-        {/* <p className="text-xl font-bold">Location: {location}</p>
+        {/* {/* <p className="text-xl font-bold">Location: {location}</p> */}
         <p className="text-xl font-bold">
-          Original Price: <small>{originalPrice}</small>
+          Price: <small>{price}</small>
         </p>
+
         <p className="text-xl font-bold">
-          Resale Price: <small>{resalePrice}</small>
+          details: <small>{details}</small>
         </p>
-        <p className="text-xl font-bold">
-          Years of Use: <small>{yearsOfUse}</small>
-        </p>
-        <p className="text-xl font-bold">
-          When Post: <small>{timeWhenItPosted}</small>
-        </p>
-        <p className="text-xl font-bold">
-          Seller name: <small>{sellersName}</small>
-        </p> */}
+
         <div className="card-actions justify-end">
           <label
             onClick={() => setProductItem(product)}
