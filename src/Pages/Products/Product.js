@@ -3,7 +3,7 @@ import "./Product.css";
 
 const Product = ({ product, setProductItem }) => {
   const { title, img, details, price } = product;
-  // console.log(title);
+
   return (
     <div className="card card-compact w-96 text-black bg-orange-300 shadow-xl">
       <figure>

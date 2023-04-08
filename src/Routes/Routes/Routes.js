@@ -34,7 +34,9 @@ const router = createBrowserRouter([
       {
         path: "/categories/:categoryId",
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/product-category/${params.categoryId}`),
+          fetch(
+            `https://y-pi-three.vercel.app/product-category/${params.categoryId}`
+          ),
         element: <Products></Products>,
       },
     ],
